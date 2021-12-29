@@ -1,0 +1,24 @@
+.last-search {
+    min-height: 650px;
+    margin-top: 20px;
+    @include flex(flex-start, center, column);
+    gap: 10px;
+    .h2-title {
+        color: $my-purple;
+    }
+    a {
+        height: 50px;
+        width: 400px;
+        @include flex;
+        border-bottom: 1px rgb(107, 107, 107) solid;
+        font-size: 20px;
+        color: $my-blue;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 500;
+        &:hover {
+            color: $my-pink;
+            font-size: 25px;
+        }
+    }
+}

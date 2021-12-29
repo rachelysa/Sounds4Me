@@ -1,0 +1,27 @@
+.sound-preview {
+    @include flex(flex-start, flex-start);
+    gap: 20px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px $my-blue;
+    color: $my-blue;
+    padding: 10px;
+    background-color: white;
+    transition: 0.5s;
+    text-decoration: none;
+    img {
+        height: 60px;
+        width: 80px;
+        border-radius: 5px;
+    }
+    .title {
+        font-size: 1ren;
+        text-align: center;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 20px $my-blue;
+        font-size: 17px;
+    }
+}

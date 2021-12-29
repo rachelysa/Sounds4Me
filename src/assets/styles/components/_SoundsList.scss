@@ -1,0 +1,35 @@
+.sounds-list {
+    min-height: 550px;
+    width: 80vw;
+    position: relative;
+    @include center;
+    padding: 0 50px;
+    
+    @media (max-width: 640px) {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.row {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 10px;
+
+    .sound-preview {
+        border-radius: 5px;
+        padding: 10px;
+        align-items: center;
+        height: 150px;
+        flex-direction: column;
+    }
+}
+
+.column {
+    @include flex(flex-start, flex-start);
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+}

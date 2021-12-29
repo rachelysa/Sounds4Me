@@ -1,0 +1,7 @@
+.action-btn {
+    margin: 0 5%;
+    @include flex(space-between);
+    background-color: white;
+    border-radius: 5px;
+    border: $my-blue 1px solid;
+}

@@ -1,0 +1,22 @@
+.app-container {
+    min-height: 75vh;
+}
+.search-input {
+    border: none;
+
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    margin: 20px 40px;
+    &:focus {
+        outline: none;
+        border-color: $my-pink;
+        box-shadow: 0 0 10px $my-pink;
+    }
+}
+.list {
+    width: 60vw;
+    position: relative;
+    @include center;
+}

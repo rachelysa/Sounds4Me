@@ -1,0 +1,13 @@
+.sound-play {
+  @include flex($direction: column);
+  height: 500px;
+  gap: 20px;
+  .sound-play-title {
+    color: $my-blue;
+    text-align: center;
+  }
+  .sound-play-video {
+    width: 100%;
+    height: 100%;
+  }
+}
