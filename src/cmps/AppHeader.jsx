@@ -16,6 +16,9 @@ export function AppHeader() {
 				<NavLink activeClassName="active-nav" to="/prev">
 					PrevSearch
 				</NavLink>
+				<NavLink activeClassName="active-nav" to="/about">
+					About
+				</NavLink>
 
 			</div>
 		</div>

@@ -1,0 +1,9 @@
+.about{
+    min-height: 650px;
+    img{
+        height: 286px;
+        width: 300px;
+        position: relative;
+        @include center
+    }
+}
